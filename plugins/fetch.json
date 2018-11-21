@@ -8,5 +8,13 @@
     "variables": {
       "SENDER_ID": "XXXXXXX"
     }
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

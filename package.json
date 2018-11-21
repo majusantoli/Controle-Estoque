@@ -9,10 +9,12 @@
         "plugins": {
             "phonegap-plugin-push": {
                 "SENDER_ID": "XXXXXXX"
-            }
+            },
+            "cordova-plugin-splashscreen": {}
         }
     },
     "dependencies": {
+        "cordova-plugin-splashscreen": "^5.0.2",
         "phonegap-plugin-push": "~1.8.0"
     }
 }

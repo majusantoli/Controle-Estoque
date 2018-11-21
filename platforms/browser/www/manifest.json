@@ -1,12 +1,18 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Notificacao",
-  "short_name": "Notificacao",
+  "name": "Controle",
+  "short_name": "Controle",
   "version": "br.com.notificacao.app",
-  "description": "Push sample application that receives push notifications.",
-  "author": "PhoneGap Team",
-  "icons": [],
+  "description": "Aplicação para controle de estoque e clientes.",
+  "author": "Maria Júlia",
+  "icons": [
+    {
+      "src": "www/img/logo.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html",
   "theme_color": "#ee6e73"
 }

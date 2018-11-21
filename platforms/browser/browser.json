@@ -10,6 +10,9 @@
     "phonegap-plugin-push": {
       "SENDER_ID": "XXXXXXX",
       "PACKAGE_NAME": "br.com.notificacao.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "br.com.notificacao.app"
     }
   },
   "dependent_plugins": {},
@@ -29,9 +32,24 @@
       "clobbers": [
         "PushNotification"
       ]
+    },
+    {
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js",
+      "id": "cordova-plugin-splashscreen.SplashScreenProxy",
+      "pluginId": "cordova-plugin-splashscreen",
+      "runs": true
     }
   ],
   "plugin_metadata": {
-    "phonegap-plugin-push": "1.8.4"
+    "phonegap-plugin-push": "1.8.4",
+    "cordova-plugin-splashscreen": "5.0.2"
   }
 }
